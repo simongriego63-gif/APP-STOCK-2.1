@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Marca | ADM Cortinas</title>
+    <!-- Importando Comfortaa (redondeada/geométrica) e Inter (limpia para lectura) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Variables de color extraídas de tus logos */
+            --bg-alabaster: #F7F6F2;
+            --text-charcoal: #4A4A4A;
+            --accent-beige: #C5BC9E;
+            --accent-sage: #8A8B7C;
+            --light-gray: #E5E5E5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-alabaster);
+            color: var(--text-charcoal);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            border-bottom: 1px solid rgba(74, 74, 74, 0.1);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Comfortaa', sans-serif;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: -0.05em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            color: var(--accent-sage);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section {
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--text-charcoal);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        /* Logos Section */
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .logo-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            text-align: center;
+        }
+
+        .logo-card p {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        .mockup-logo {
+            font-family: 'Typo Round Regular Demo', 'Comfortaa', sans-serif; 
+            letter-spacing: -2px; 
+            font-weight: 600;
+            font-size: 2.5rem;
+        }
+
+        /* Color Palette Section */
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .color-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+        }
+
+        .color-swatch {
+            height: 150px;
+            width: 100%;
+        }
+
+        .color-info {
+            padding: 20px;
+        }
+
+        .color-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+        .color-codes {
+            font-size: 0.85rem;
+            color: #666;
+            font-family: monospace;
+        }
+
+        /* Typography Section */
+        .type-showcase {
+            background: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            margin-bottom: 30px;
+        }
+
+        .type-rounded {
+            font-family: 'Typo Round Regular Demo', 'Comfortaa', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .type-sans {
+            font-family: 'Inter', sans-serif;
+            font-size: 2rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .type-details {
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p class="subtitle">Guía de Identidad Visual</p>
+        <h1>adm*</h1>
+        <p style="color: #777; margin-top: 15px; font-weight: 300;">Textiles, Diseño y Arquitectura Interior</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- SECCIÓN 1: LOS LOGOTIPOS -->
+        <section class="section">
+            <h2 class="section-title">01. Uso del Logotipo</h2>
+            <p>El logotipo de adm* se caracteriza por su tipografía redondeada (geométrica) que transmite cercanía y modernidad, combinada con el asterisco que aporta un toque de diseño de autor. Hemos definido tres usos principales basados en los archivos originales:</p>
+            
+            <div class="logo-grid">
+                <div class="logo-card">
+                    <div style="height: 100px; display: flex; align-items: center; justify-content: center; background: #E5E5E5; border-radius: 4px;">
+                        <span class="mockup-logo" style="color: #4A4A4A;">adm*</span>
+                    </div>
+                    <p><strong>Uso Principal / Institucional</strong><br>Texto en gris carbón sobre fondos grises muy claros. Ideal para documentos formales y presupuestos.</p>
+                </div>
+                <div class="logo-card">
+                    <div style="height: 100px; display: flex; align-items: center; justify-content: center; background: #FFFFFF; border-radius: 4px; border: 1px solid #eee;">
+                        <span class="mockup-logo" style="color: #C5BC9E;">adm*</span>
+                    </div>
+                    <p><strong>Uso Elegante / Minimalista</strong><br>Texto en tono Beige Cashmere sobre fondo blanco puro. Ideal para papelería fina y encabezados.</p>
+                </div>
+                <div class="logo-card">
+                    <div style="height: 100px; display: flex; align-items: center; justify-content: center; background: #8A8B7C; border-radius: 4px;">
+                        <span class="mockup-logo" style="color: #FFFFFF;">adm*</span>
+                    </div>
+                    <p><strong>Uso Invertido / Detalles</strong><br>Texto en blanco sobre fondo Verde Salvia. Ideal para avatares de redes sociales o stickers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: PALETA DE COLORES -->
+        <section class="section">
+            <h2 class="section-title">02. Paleta de Colores Exacta</h2>
+            <p>Colores extraídos directamente de la identidad visual. Evitamos el negro puro (#000000) y el blanco puro (#FFFFFF) en fondos extensos para mantener la textura visual y la suavidad del diseño de interiores.</p>
+            <br>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #4A4A4A;"></div>
+                    <div class="color-info">
+                        <div class="color-name">Gris Carbón</div>
+                        <div class="color-codes">
+                            HEX: #4A4A4A<br>
+                            RGB: 74, 74, 74
+                        </div>
+                        <p style="font-size: 0.8rem; margin-top: 10px; color: #777;">Para textos principales y logo principal. Aporta seriedad sin la dureza del negro.</p>
+                    </div>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #C5BC9E;"></div>
+                    <div class="color-info">
+                        <div class="color-name">Beige Cashmere</div>
+                        <div class="color-codes">
+                            HEX: #C5BC9E<br>
+                            RGB: 197, 188, 158
+                        </div>
+                        <p style="font-size: 0.8rem; margin-top: 10px; color: #777;">Tono cálido extraído de "Imagen100.png". Para acentos, hover de botones y detalles premium.</p>
+                    </div>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #8A8B7C;"></div>
+                    <div class="color-info">
+                        <div class="color-name">Verde Salvia</div>
+                        <div class="color-codes">
+                            HEX: #8A8B7C<br>
+                            RGB: 138, 139, 124
+                        </div>
+                        <p style="font-size: 0.8rem; margin-top: 10px; color: #777;">Extraído de "image_53c798.png". Para contrastes elegantes y fondos de secciones secundarias.</p>
+                    </div>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #F7F6F2; border: 1px solid #eaeaea;"></div>
+                    <div class="color-info">
+                        <div class="color-name">Alabastro (Fondo)</div>
+                        <div class="color-codes">
+                            HEX: #F7F6F2<br>
+                            RGB: 247, 246, 242
+                        </div>
+                        <p style="font-size: 0.8rem; margin-top: 10px; color: #777;">El color de fondo principal de la web. Da una sensación de lino natural o tela.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: TIPOGRAFÍA -->
+        <section class="section">
+            <h2 class="section-title">03. Sistema Tipográfico</h2>
+            <p>Para respetar la identidad exacta de tu marca, el logotipo está construido con la fuente <strong>Typo Round Regular Demo</strong>. Para el entorno web, la acompañamos con una fuente neutral para la lectura prolongada que no compita con sus formas geométricas.</p>
+            <br>
+            <div class="type-showcase">
+                <p class="subtitle" style="margin-bottom: 10px;">Logotipo y Marca (Geométrica Redondeada)</p>
+                <div class="type-rounded">Typo Round</div>
+                <p class="type-rounded" style="font-size: 1.5rem; font-weight: 400; margin-top: 15px;">Diseño textil a medida.</p>
+                <div class="type-details">
+                    <strong>Uso:</strong> Exclusivamente para el logotipo oficial y material gráfico impreso o renderizado. Al ser una tipografía de escritorio (versión Demo), en la web utilizamos tipografías de respaldo (fallbacks) similares para mantener la estética redondeada si el usuario no la tiene instalada.
+                </div>
+            </div>
+
+            <div class="type-showcase">
+                <p class="subtitle" style="margin-bottom: 10px;">Textos de Lectura (Palo Seco Neutro)</p>
+                <div class="type-sans">Inter (Light & Regular)</div>
+                <p class="type-sans" style="font-size: 1rem; font-weight: 400;">Trabajamos con textiles de primera calidad para garantizar una caída perfecta y una durabilidad excepcional en cada uno de nuestros sistemas.</p>
+                <div class="type-details">
+                    <strong>Uso:</strong> Para todos los párrafos, menús de navegación, botones y detalles técnicos. Al ser tan neutra, equilibra lo llamativo de los títulos y permite leer con facilidad.
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
